@@ -22,7 +22,8 @@ $(function() {
         $("#name").text(data.name);
         $("#age").text(data.age);
         $("#email").text(data.email);
-        $("#image").text(data.image);
+        // $("#image").text(data.image);
+        $(".detailimage").attr( "src", data.image);
         $("#quote").text(data.quote);
       };
 
